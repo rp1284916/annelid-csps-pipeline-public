@@ -1,6 +1,6 @@
 # Annelid CSPS Pipeline
 
-This repository is a sanitized, code-only snapshot of an annelid cross-species cell-state analysis workflow. It is shared as a methods and software portfolio piece, not as a data release.
+This repository is a sanitised, code-only snapshot of an annelid cross-species cell-state analysis workflow. It is shared as a methods and software portfolio piece, not as a data release.
 
 No raw data, processed matrices, result tables, figures, unpublished interpretations, or workstation-specific configs are included here.
 

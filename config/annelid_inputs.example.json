@@ -1,0 +1,36 @@
+{
+  "raw_data_dir": "C:/path/to/local/raw-data-root",
+  "processed_dir": "work/processed",
+  "species": {
+    "Ctel": {
+      "footprints_csv": "species_a/footprints_metacell_allgenes.csv",
+      "h5ad": "species_a/reference_object.h5ad",
+      "cluster_labels_xlsx": "species_a/cluster_labels.xlsx",
+      "gene_annotation_tsv": "species_a/gene_annotation.tsv",
+      "tf_list": "species_a/tf_list.txt",
+      "orthology_column": "Ctel",
+      "gene_prefix": "CTELG"
+    },
+    "Ofus": {
+      "footprints_csv": "species_b/footprints_metacell_allgenes.csv",
+      "h5ad": "species_b/reference_object.h5ad",
+      "cluster_labels_xlsx": "species_b/cluster_labels.xlsx",
+      "gene_annotation_tsv": "species_b/gene_annotation.tsv",
+      "tf_list": "species_b/tf_list.txt",
+      "orthology_column": "Ofus",
+      "gene_prefix": "OFUSG"
+    }
+  },
+  "orthology": {
+    "xlsx": "orthology/ortholog_table.xlsx",
+    "orthogroup_column": "Orthogroup"
+  },
+  "pipeline": {
+    "reference_species": "Ctel",
+    "species_order": ["Ctel", "Ofus"],
+    "footprint_pseudocount": 1e-06,
+    "footprint_regularizer": 0.05,
+    "gene_total_umi_threshold": 20.0,
+    "marker_logfc_pseudocount": 0.001
+  }
+}

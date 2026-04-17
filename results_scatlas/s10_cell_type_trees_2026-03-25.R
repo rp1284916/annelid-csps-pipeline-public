@@ -27,8 +27,8 @@ options(mc.cores = nthreads)
 
 build_species_color_map = function(species_id, annot_df) {
 	raw_names = paste(species_id, annot_df$cell_type, sep = "|")
-	sanitized_names = paste(species_id, make.names(annot_df$cell_type), sep = "|")
-	color_map = c(setNames(annot_df$color, raw_names), setNames(annot_df$color, sanitized_names))
+	sanitised_names = paste(species_id, make.names(annot_df$cell_type), sep = "|")
+	color_map = c(setNames(annot_df$color, raw_names), setNames(annot_df$color, sanitised_names))
 	color_map[!duplicated(names(color_map))]
 }
 

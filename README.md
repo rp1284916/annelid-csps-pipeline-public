@@ -22,7 +22,7 @@ Included here:
 
 - pipeline scripts and helper code
 - Appocrita batch runners
-- a sanitized config template
+- a sanitised config template
 - documentation for local setup and execution order
 
 Not included here:

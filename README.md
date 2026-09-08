@@ -4,6 +4,8 @@ This repository is a sanitised, code-only snapshot of an annelid cross-species c
 
 No raw data, processed matrices, result tables, figures, unpublished interpretations, or workstation-specific configs are included here.
 
+> **Availability clarification (September 2026):** The submitted dissertation states that several machine-readable curation and result tables, SAMap scripts, exact software environments, and all analysis code are available in this repository. Those statements describe the complete research workspace, not the narrower public release. This public repository intentionally contains only material that can be shared without redistributing laboratory-supplied or derived data. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for an item-by-item crosswalk and the software versions reported in the dissertation.
+
 ## What This Pipeline Does
 
 At a high level, the workflow:
@@ -132,3 +134,5 @@ The following are intentionally excluded from version control:
 - common single-cell data formats such as `.h5ad` and `.rds`
 
 Before sharing any future changes, review new files for data, results, screenshots, or project-specific interpretation.
+
+The presence of a filename in the dissertation does not imply that it is safe to publish. Do not add omitted tables or outputs merely to make the dissertation's availability statement literal; obtain approval from the data-owning laboratory first.
